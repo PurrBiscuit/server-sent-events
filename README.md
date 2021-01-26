@@ -1,4 +1,4 @@
-# Server-Side-Events (SSE)
+# Server-Side Events (SSE)
 
 Demo of SSE using the EventSource Javascript API
 
