@@ -48,9 +48,9 @@ http.createServer((req, res) => {
       res.end()
     }
   } else {
-    if (req.url === '/app.js') {
+    if (req.url === '/client.js') {
       res.writeHead(200, {'Content-Type': 'text/javascript'})
-      res.write(fs.readFileSync(__dirname + '/app.js'))
+      res.write(fs.readFileSync(__dirname + '/client.js'))
       res.end()
     } else {
       res.writeHead(200, {'Content-Type': 'text/html'})
