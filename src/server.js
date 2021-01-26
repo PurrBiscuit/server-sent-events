@@ -32,7 +32,7 @@ const debugHeaders = req => {
   for (const key in req.headers) {
     console.log(`${key}: ${req.headers[key]}`)
   }
-  console.log('\n\n')
+  console.log('\n')
 }
 
 console.log('Starting the HTTP server...')
