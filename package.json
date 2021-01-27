@@ -1,5 +1,5 @@
 {
-  "name": "server-side-events",
+  "name": "server-sent-events",
   "version": "1.0.0",
   "description": "Demo of SSE using the EventSource Javascript API",
   "main": "src/server.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PurrBiscuit/server-side-events.git"
+    "url": "git+https://github.com/PurrBiscuit/server-sent-events.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PurrBiscuit/server-side-events/issues"
+    "url": "https://github.com/PurrBiscuit/server-sent-events/issues"
   },
-  "homepage": "https://github.com/PurrBiscuit/server-side-events#readme",
+  "homepage": "https://github.com/PurrBiscuit/server-sent-events#readme",
   "devDependencies": {
     "nodemon": "^2.0.7"
   }
